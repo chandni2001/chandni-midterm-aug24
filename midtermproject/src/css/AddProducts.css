@@ -1,0 +1,72 @@
+
+
+.addproducts {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.addproducts h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.addproducts div {
+    margin-bottom: 15px;
+}
+
+.addproducts label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.addproducts input[type="text"],
+.addproducts input[type="number"],
+.addproducts select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.addproducts input[type="text"]:focus,
+.addproducts input[type="number"]:focus,
+.addproducts select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.addproducts .error {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.addproducts button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addproducts button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.addproducts button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+
